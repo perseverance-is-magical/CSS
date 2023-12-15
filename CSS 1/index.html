@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* INTERNAL CSS-- NOT A GOOD TOOO */
+        /* <link rel="stylesheet" href="style.css"> */
+        h1{
+            color: green;
+        }
+        p{
+            background-color: blueviolet !important;
+        }
+        #spec{
+            background-color: crimson;
+        }
+    </style>
+
+</head>
+<!-- first p tag color is still yellow...second is still green .. but last one became blue violet....inline is preferred over internal -->
+<!-- but if we use [ !important ] in the internal css...it will be donee.. -->
+<body>
+    <h1>Welcome to studies!!!</h1>
+    <!-- INLINE CS--NOT A GOOD PRACTICE-->
+    <p style="background-color: yellow;" id="spec">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam blanditiis neque officiis explicabo rerum cum fugit. Quia veniam minus eius.</p>
+    <p style="color: aqua; background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat cupiditate molestias, et iure voluptatum velit perferendis delectus sed quod quis odio consequatur suscipit minus repudiandae earum veritatis dolor eos iusto?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel cupiditate omnis debitis laudantium iure architecto minus voluptatem alias, ratione ipsum sequi tempora eum suscipit provident, laboriosam qui obcaecati cum voluptates. Quos, nulla. Sapiente enim minima debitis, consequuntur dolor non. Pariatur illum consequatur aut quam qui, modi tempore laboriosam iste!</p>
+    <footer>I AM FOOTER</footer>
+<!-- -> If same property is defined for a tag...in both external and internal css with different values -->
+    <!-- then preference will be given baseed on order... -->
+ <!-- -> if [!important] is written only in one of them..it is preferred... -->
+ <!-- -> If it is also written in both...then order will be preferred.. -->
+</body>
+</html>
