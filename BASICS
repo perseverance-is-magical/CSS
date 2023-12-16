@@ -1,6 +1,30 @@
+BORDER:::
+-> border-style: solid;
+-> border-width: 2px;
+-> border-color: brown;
+-> border-radius: 5px; ... curve the edgess...
+   even one corner can also be done...see the palet...
+-> width:250px; .. kitna left-right mai bada hoga...
+-> height:200px ... kitna top-bottom mai bda hogaa...
+-> width and height wont apply on inline elements ...they depend only on content inside them..  
+-> SHORT HAND NOTATION:::: border:solid green 5px;
 
+BOX MODEL:::
+-> Hamare pas agar koi bhi shape ka text, image kuch bhi ho...browser usse rectangle shape mai hi render karega / display karegaa...
+-> 4parts:- content..padding..border..margin
+SEE PHOTO IN THIS FOLDER..
+-> PADDING... layer existing between border and content...on increasing padding(in px) ..gap between content and border increases...
+-> MARGIN... pura pura move hoga with border..leaving space ...
+-> Padding Margin can be done individually on each side only...
+SHORT HAND::: padding:  top right bottom left (in px)
+              padding: y axis  x axis (in px)
 
+UNIVERSAL SELECTOR:::
+-> * { padding : 0px ;
+       border-width : 0px; }
+Taki universally har tag/element mai lag jayeee...
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CSS 2
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+box-sizing : border-box;
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding, and border are included in the width and height
+
